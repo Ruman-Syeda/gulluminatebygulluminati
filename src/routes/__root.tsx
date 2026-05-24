@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "GULLUMINATE" },
+      { name: "description", content: "GULLUMINATE is an ecological intelligence platform that models risk to identify potential zoonotic disease exposure zones." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "GULLUMINATE" },
+      { property: "og:description", content: "GULLUMINATE is an ecological intelligence platform that models risk to identify potential zoonotic disease exposure zones." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "GULLUMINATE" },
+      { name: "twitter:description", content: "GULLUMINATE is an ecological intelligence platform that models risk to identify potential zoonotic disease exposure zones." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bb95b4b0-303c-49a5-8323-fed7a24a4081/id-preview-1e647c25--f2a6c7a7-05dd-40e2-bf0e-405cc41ad2d6.lovable.app-1779648068999.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bb95b4b0-303c-49a5-8323-fed7a24a4081/id-preview-1e647c25--f2a6c7a7-05dd-40e2-bf0e-405cc41ad2d6.lovable.app-1779648068999.png" },
     ],
     links: [
       {
