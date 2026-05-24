@@ -30,10 +30,19 @@ export function StatBar({
             <span className="font-mono text-[10px] tracking-[0.18em] uppercase text-muted-foreground">
               {it.label}
             </span>
-            <span className="h-1.5 w-1.5 rounded-full" style={{ background: it.color, boxShadow: `0 0 8px ${it.color}` }} />
+            <span
+              className="h-1.5 w-1.5 rounded-full"
+              style={{ background: it.color, boxShadow: `0 0 8px ${it.color}` }}
+            />
           </div>
           <div className="flex items-baseline gap-2 mt-1">
             <span className="text-2xl font-semibold text-glow" style={{ color: it.color }}>
               {it.value}
             </span>
-            <span className="text-[10px] font-mono text-muted-
+            <span className="text-[10px] font-mono text-muted-foreground">{it.sub}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
